@@ -4,7 +4,7 @@
 
 2026 INHA AX-EDU 해커톤에서 개발했으며, 최우수상(2위)을 수상했습니다.
 
-![LOOKteracy 시작 화면](docs/images/landing.png)
+![LOOKteracy 시작 화면](images/landing.png)
 
 ## 기획 배경
 
@@ -27,7 +27,7 @@ LOOKteracy는 학생이 지문을 읽는 동안 어느 부분에 오래 머물�
 | 모둠 편성 | 이해 점수에 따른 멘토형·수준별 모둠을 추천하고, 교사가 직접 그룹을 구성·저장합니다. |
 | 성장 기록 | 응시 시도별 점수 변화, 목표, 칭찬과 레벨을 확인합니다. |
 
-![LOOKteracy 교사 대시보드](docs/images/teacher-dashboard.jpg)
+![LOOKteracy 교사 대시보드](images/teacher-dashboard.jpg)
 
 ## 사용 흐름
 
@@ -55,7 +55,7 @@ LOOKteracy는 학생이 지문을 읽는 동안 어느 부분에 오래 머물�
 
 시선 분석 리포트 보기
 
-![지문 위에 표시한 시선 히트맵과 이동 경로](docs/images/gaze-report.png)
+![지문 위에 표시한 시선 히트맵과 이동 경로](images/gaze-report.png)
 
 ## 실행
 
@@ -77,13 +77,9 @@ node scripts/serve.mjs
 
 브라우저에서 [http://127.0.0.1:4186](http://127.0.0.1:4186)으로 접속합니다.
 
-Claude 채점 설정과 자세한 실행 방법은 [사용 안내](docs/USAGE.md)를 참고하세요.
-
 ## 구현 범위
 
 현재 버전은 해커톤 프로토타입입니다. 학급 샘플·과거 기록·월별 성장 그래프, OCR, A~D 유형 분류와 PNG 출력에는 시연용 데이터를 사용합니다.
-
-세부 구현 상태는 [NOTES](docs/NOTES.md), 코드 구조는 [ARCHITECTURE](docs/ARCHITECTURE.md)에 정리했습니다.
 
 ## 팀
 
@@ -104,4 +100,4 @@ Claude 채점 설정과 자세한 실행 방법은 [사용 안내](docs/USAGE.md
 | Anthropic TypeScript SDK | Apache-2.0 |
 | Noto Sans KR | OFL-1.1 |
 
-시연 지문은 [2026학년도 3월 고1 전국연합학력평가 국어 1~3번 지문](https://wdown.ebsi.co.kr/W61001/01exam/20260324/go1/kor_main_mun_25R6W2G6_1.pdf)을 발췌·편집했으며, 문항과 루브릭은 별도로 작성했습니다.
+시연 지문은 [2026학년도 3월 고1 전국연합학력평가 국어 1~3번 지문]을 발췌·편집했으며, 문항과 루브릭은 별도로 작성했습니다.
